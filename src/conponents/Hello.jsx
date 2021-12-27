@@ -7,11 +7,13 @@ export function Hello(props){
         <View >
             <Text>{props.text}</Text>
             <Text style={style.text}>Hello World</Text>
+            <Text style={style.text}>Hello World</Text>
         </View>
     );
 }
 Hello.prototype={
     children:String
+
 }
 
 const style=StyleSheet.create({
