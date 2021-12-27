@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import{String} from 'prop-types'
 
 export function Hello(props){
     return(
@@ -10,7 +11,7 @@ export function Hello(props){
     );
 }
 Hello.prototype={
-    children:String.isRequired
+    children:String
 }
 
 const style=StyleSheet.create({
